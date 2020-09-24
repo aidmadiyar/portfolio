@@ -68,7 +68,7 @@ body {
 }
 
 .intro {
-  margin: 0 0 120px;
+  margin: 0 0 60px;
 }
 
 .subheading {
@@ -83,6 +83,10 @@ body {
   text-align: center;
 }
 
+.avatar {
+   border-radius: 50%;
+}
+
 .intro h3,
 .portfolio h3 {
   margin: 0 0 12px;
@@ -91,27 +95,8 @@ body {
   font-weight: 500;
 }
 
-.intro p {
-  margin: 0 0 32px;
-}
-
-.skills-list {
-  margin: 0;
-  padding: 0;
-}
-
-.skills-list dt {
-  padding-left: 32px;
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
-.skill-html {
-  background-image: url("img/icon-html.svg");
-}
-
-.skill-css {
-  background-image: url("img/icon-css.svg");
+.profiles {
+  margin-bottom: 10px;
 }
 
 .level {
@@ -133,6 +118,10 @@ body {
 
 .portfolio {
   margin: 0 0 120px;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
 }
 
 .projects {
