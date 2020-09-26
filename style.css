@@ -117,11 +117,15 @@ body {
 }
 
 .portfolio {
-  margin: 0 0 120px;
+  margin: 0 0 60px;
 }
 
 .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+}
+
+.portfolio-item:last-child {
+  margin-bottom: 0;
 }
 
 .projects {
